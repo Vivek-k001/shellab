@@ -1,0 +1,16 @@
+echo "Enter two integers:"
+read x
+read y
+
+sum=`expr $x + $y`
+diff=`expr $x - $y`
+prod=`expr $x \* $y`
+quot=`expr $x / $y`
+rem=`expr $x % $y`
+
+echo "sum = $sum"
+echo "diff = $diff"
+echo "product = $prod"
+echo "quotient = $quot"
+echo "remainder = $rem"
+
