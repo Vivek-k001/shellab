@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "Enter a string:"
+read s
+
+echo "Enter position:"
+read p
+
+echo "Enter length:"
+read l
+
+result=`expr substr "$s" $p $l`
+
+echo "Substring = $result"
