@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Enter a number:"
+read num
+
+square=$((num * num))
+cube=$((num * num * num))
+
+echo "Square = $square"
+echo "Cube = $cube"
