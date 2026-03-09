@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Enter first number:"
+read a
+
+echo "Enter second number:"
+read b
+
+temp=$a
+a=$b
+b=$temp
+
+echo "After swap:"
+echo "a = $a"
+echo "b = $b"
